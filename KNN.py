@@ -2,7 +2,7 @@ import pandas as pd #memanggil file dari luar
 import numpy as np #komputasi
 import matplotlib.pyplot as plt #buat diagram
 
-data = pd.read_csv('D:\Kuliah\Semester 5\Data Warehouse dan Data Mining\PYTHON\Social_Network_Ads.csv')
+data = pd.read_csv(r'D:\Kuliah\Semester 5\Data Warehouse dan Data Mining\PYTHON\Social_Network_Ads.csv')
 x = data.iloc[:, [2,3]].values #untuk memanggil kolom 2 dan 3
 y = data.iloc[:, -1].values #untuk memanggil semua kolom y
 
